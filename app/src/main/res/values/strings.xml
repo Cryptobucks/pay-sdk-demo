@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sdk Example</string>
+
+    <string name="title">Example Sdk Cryptobucks</string>
+    <string name="customer_name">Customer name</string>
+    <string name="customer_email">Customer email</string>
+    <string name="customer_phone">Customer phone</string>
+    <string name="amount">Amount</string>
+    <string name="business_name">Business name</string>
+    <string name="description">Description</string>
+    <string name="pay">Pay</string>
+    <string name="error">Sdk error</string>
+
+    <string name="sdk_success_title">Sdk result</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="notes">Notes</string>
+    <string name="status">Status</string>
+    <string name="network_fee">Network fee</string>
+    <string name="total_amount">Total amount</string>
+
+</resources>
