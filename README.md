@@ -113,42 +113,75 @@ private fun createRequest() {
 
 To start the SDK it is necessary to provide an invoiceRequest object, it consists of:
 
+|---------------|--------|--------------------------------|
 |    taxRate    | Double |                                |
+|---------------|--------|--------------------------------|
 | customerPhone | String |         Customer phone         |
+|---------------|--------|--------------------------------|
 |    amount     | Double |       Transaction amount       |
+|---------------|--------|--------------------------------|
 | customerEmail | String |         Customer mail          |
+|---------------|--------|--------------------------------|
 | businessName  | String |          Business name         |
+|---------------|--------|--------------------------------|
 | customerName  | String |         Customer name          |
+|---------------|--------|--------------------------------|
 |  description  | String | Description of the transaction |
+|---------------|--------|--------------------------------|
 |    tipRate    | Double |                                |
+|---------------|--------|--------------------------------|
 
 At this point CryptobucksSdk will open and activate the corresponding calls according to how the process ended. This gives the results in the Success and Error callbacks. Giving a parameter as different for each case.
 
 The on Success method returns a SuccessInvoices object.
 
+|--------------------|---------|--------------------------------|
 |    amount          | Double  |        Transaction value       |
+|--------------------|---------|--------------------------------|
 | baseAmount         | Double  | Base value of the transaction  |
+|--------------------|---------|--------------------------------|
 | businessName       | String  |         Business name          |
+|--------------------|---------|--------------------------------|
 | checkoutUrl        | String  |                                |
+|--------------------|---------|--------------------------------|
 | createdAt          | String  |         Creation date          |
+|--------------------|---------|--------------------------------|
 | customerEmail      | String  |         Customer mail          |
+|--------------------|---------|--------------------------------|
 | customerName       | String  |         Customer name          |
+|--------------------|---------|--------------------------------|
 | customerPhone      | String  |         Customer phone         |
+|--------------------|---------|--------------------------------|
 |  description       | String  | Description of the transaction |
+|--------------------|---------|--------------------------------|
 |    expiresAt       | String  |                                |
+|--------------------|---------|--------------------------------|
 |    expiresIn       | String  |                                |
+|--------------------|---------|--------------------------------|
 |    id              | String  |                                |
+|--------------------|---------|--------------------------------|
 |     identifier     | String  |                                |
+|--------------------|---------|--------------------------------|
 |     paidAmount     | Double  |                                |
+|--------------------|---------|--------------------------------|
 |    settleAmount    | Double  |                                |
+|--------------------|---------|--------------------------------|
 |    status          | Status  |       Transaction status       |
+|--------------------|---------|--------------------------------|
 |    tax             | Double  |              Tax               |
+|--------------------|---------|--------------------------------|
 |    taxRate         | Double  |                                |
+|--------------------|---------|--------------------------------|
 |    tip             | Double  |                                |
+|--------------------|---------|--------------------------------|
 |    tipRate         | Double  |                                |
+|--------------------|---------|--------------------------------|
 |   transactionFee   | Double  |                                |
+|--------------------|---------|--------------------------------|
 | transactionFeeRate | Double  |                                |
+|--------------------|---------|--------------------------------|
 | underpaid          | Boolean |                                |
+|--------------------|---------|--------------------------------|
 
 ### status enum
 
